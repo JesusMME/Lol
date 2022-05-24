@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(71, 205, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    background-color: aliceblue;
+    width: ex;
+    height: ex;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: 5px double ;
+    position: absolute;
+    top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.botones{
+    background-color:rgb(152, 244, 183);
+    width: 100px;
+    height: 20px;
+    max-width: 200px;
+    max-height:50px;
+    border-radius: 10%;
+    border: 2px black solid;
+}
+.letraBlanca{
+    color:aliceblue;
+    text-shadow: 3px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.listaTarea{
+    width: 400px;
+    height: 50px;
+    background-color: lightskyblue;
+    border: 2px rgb(0, 0, 0) solid;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+#otroColor{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(0, 157, 255);
+    border: 2px rgb(0, 0, 0) solid;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+
+

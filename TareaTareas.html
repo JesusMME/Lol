@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./statics/css/cssTareas.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+        <h1>Lista de tareas</h1><br/>
+        <label for="input" >Nombre del trabajo:</label>
+        <input required name="input" type="text" id="input1" ><br/><br/>
+        <label for="selecciona">Materia:</label>
+        <select name="selecciona" id="lista">
+            <div id="nuevaTarea"></div></div>
+            <option >Matemáticas</option>
+            <option >Química</option>
+            <option >Español</option>
+            <option >Curso Web</option>
+            <option value="otro">Otro...</option>
+        </select>
+        <div id="tarea"></div>
+        <br/><br/>
+        <button class="botones" id="botone">Añadir tarea</button><br/><br/><br/>
+        <div id="dondeAgrega">
+        </div>
+        <div id="contadorr">
+        </div>
+    </div>
+    <script src="./dynamics/js/jsTareas.js"></script>
+</body>
+</html>
