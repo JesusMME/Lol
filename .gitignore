@@ -1,0 +1,17 @@
+
+**/ContenidoSecreto
+#esto es un comentario
+#ignorar el archivo config
+**/config.*
+**/config
+#ingnorar los archivos con extención .pdf
+**/*.pdf
+#ignorar todos los archivos .txt
+**/*.txt
+#ignorar Todas las imágenes a excepción de las esenciales para el sistema
+assets/media/images/*.*
+assets/media/images/*!-system.*
+#eliminar todo con -prueba o -local
+*-prueba.*
+*-local.*
+*!-experimento*.*
