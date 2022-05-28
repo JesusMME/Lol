@@ -1,0 +1,17 @@
+body{
+    background-color: yellowgreen;
+    align-items: center;
+    justify-content: center;
+}
+#centrado{
+    text-align: center;
+}
+#cajaContener{
+    position: relative;
+    width: 800px;
+    height: em;
+    background-color: rgb(185, 253, 184);
+    border: 3px rgb(8, 76, 78) solid;
+    border-radius: 10%;
+    text-align: center;
+}
